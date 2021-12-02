@@ -1114,7 +1114,7 @@ class App extends React.Component<AppProps, AppState> {
       {
         scrollX: this.state.scrollX,
         scrollY: this.state.scrollY,
-        viewBackgroundColor: this.state.viewBackgroundColor,
+        viewBackgroundColor: "transparent",
         zoom: this.state.zoom,
         remotePointerViewportCoords: pointerViewportCoords,
         remotePointerButton: cursorButton,
