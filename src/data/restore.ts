@@ -272,7 +272,8 @@ export const restore = (
   localElements: readonly ExcalidrawElement[] | null | undefined,
 ): RestoredDataState => {
   return {
-    elements: restoreElements(data?.elements, localElements),
+    elements:
+      [] as ExcalidrawElement[] /* restoreElements(data?.elements, localElements)*/,
     appState: restoreAppState(data?.appState, localAppState || null),
     files: data?.files || {},
   };
