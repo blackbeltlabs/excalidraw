@@ -154,7 +154,7 @@ export const MobileMenu = ({
   };
   return (
     <>
-      {!viewModeEnabled && renderToolbar()}
+      {!viewModeEnabled}
       <div
         className="App-bottom-bar"
         style={{
@@ -205,7 +205,6 @@ export const MobileMenu = ({
             </Section>
           ) : null}
           <footer className="App-toolbar">
-            {renderAppToolbar()}
             {appState.scrolledOutside && !appState.openMenu && (
               <button
                 className="scroll-back-to-content"
