@@ -508,8 +508,8 @@ const LayerUI = ({
       })}
     >
       {dialogs}
-      {renderFixedSideContainer()}
-      {renderBottomAppMenu()}
+      {/*{renderFixedSideContainer()}*/}
+      {/*{renderBottomAppMenu()}*/}
       {appState.scrolledOutside && (
         <button
           className="scroll-back-to-content"
